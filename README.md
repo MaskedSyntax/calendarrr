@@ -17,16 +17,13 @@
   <img src="https://img.shields.io/badge/UI-GTK-8bc34a" />
   <img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" />
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-In_Development-critical" />
-</p>
 
 
 ---
 
 ## Overview
 
-A minimal calendar application for Linux desktops that allows users to select and view dates easily.
+A minimal calendar application for xfce desktops that allows users to select and view dates easily.
 
 ## Setup
 
