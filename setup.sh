@@ -3,6 +3,9 @@
 # Move the binary to /usr/local/bin
 sudo cp bin/calendarrr /usr/local/bin/calendarrr
 
+# Create the applications directory if it doesn't exist
+mkdir -p ~/.local/share/applications/
+
 # Create the desktop entry
 cat <<EOL > ~/.local/share/applications/calendarrr.desktop
 [Desktop Entry]
