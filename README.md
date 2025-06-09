@@ -29,10 +29,14 @@ A minimal calendar application for xfce desktops that allows users to select and
 
 To use calendarrr, follow these steps:
 
-1. Install the required dependencies:
-    ```bash
-    sudo apt-get install libgtk-3-dev
-    ```
+1. Install the required dependencies:  
+
+    Distro | Package Name | Annotation
+    --- | --- | ---
+    Arch Linux | `gtk3` | Install using `sudo pacman -S gtk3`
+    Debian 10 or later | `libgtk-3-dev` | Install using `sudo apt-get install libgtk-3-dev`
+    Fedora | `gtk3-devel` | Install using `sudo dnf install gtk3-devel`
+
 2. Clone the repository:
    ```bash
    git clone https://github.com/maskedsyntax/calendarrr.git
